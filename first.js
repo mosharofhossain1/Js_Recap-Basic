@@ -31,3 +31,32 @@ num2 **= 2;
 console.log(num2)
 
 // 2. Arathmatice OPerator:-   +, -, *, /, %, **
+
+const A = 5;
+const B = 2
+let r =  A + B;
+r = A - B;
+r = A * B;
+r = A / B;
+r = A % B;
+r = A ** B;
+
+console.log(r);
+
+// 3. Comparative OPerator :- ==, ===, !=, !==, >, <, >=, <=, 
+
+let number1 = 23;
+let number2 = 40;
+
+console.log(number1 == number2);
+console.log(number1 !== number2);
+console.log(number1 > number2);
+console.log(number1 < number2);
+console.log(number1 >= number2);
+console.log(number1 <= number2);
+
+// 4. Logical OPerators:-  &&, ||, !
+
+console.log(number1 === number2 && number1 > number2);
+console.log(number1 !== number2 || number1 > number2);
+console.log(number1 === number2 ||( number1 < number2 && number1 % 2 === 0 ))
