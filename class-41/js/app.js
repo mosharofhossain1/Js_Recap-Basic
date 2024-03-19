@@ -4,8 +4,11 @@ console.log(heading.innerText);
 const listItems = document.getElementsByClassName('items');
 console.log(listItems);
 
-const list = listItems;
-console.log(list)
+for(let list of listItems){
+    console.log(list.innerHTML)
+}
+// const list = listItems;
+// console.log(list)
 
 const assign =[...listItems].forEach(item =>{
     console.log(item.innerText)
@@ -13,3 +16,23 @@ const assign =[...listItems].forEach(item =>{
 
 const assign2 = Array.from(listItems);
 console.log(assign2)
+
+
+// document.getElementsByTagName 
+
+const li = document.getElementsByTagName('li');
+console.log(li);
+
+// document.getElentsByName 
+
+const nameList = document.getElementsByName('firstName');
+console.log(nameList);
+
+// querySeclector 
+
+const h2 = document.getElementById('heding2');
+console.log(h2);
+
+
+const pera = document.getElementsByClassName('pera');
+console.log(pera)
