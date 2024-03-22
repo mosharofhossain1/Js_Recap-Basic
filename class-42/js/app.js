@@ -17,3 +17,8 @@ const item3 = document.querySelector('.item3');
 // console.log(item3.nextElementSibling)
 // console.log(item3.previousSibling)
 // console.log(item3.previousElementSibling)
+
+const li = document.createElement('li');
+li.innerText = 'listItem-6';
+
+listItem.appendChild(li)
